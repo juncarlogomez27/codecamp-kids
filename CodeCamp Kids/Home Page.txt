@@ -1,0 +1,30 @@
+Home Page:
+color choice of red for the navigation tabs vs green
+The More button is confusing than of full story - well informed
+Concert button of read more is misleading as it should say buy tickets. Ads
+Instead of Take survey it is read more misleading 
+Choice of text for the hotline cant be read
+
+News Page:
+clickable links within the articles are not so much seen
+Chart color and information is not well relayed
+Photo of Air-Con Fact Finding Mission doesn't have any information of what it is. 
+
+Tickets Page:
+Concert Dates table is confusing
+text choice for contact number is not readable
+Small text for the ticket prices
+Poor color choice
+Text on the Terms and Conditions is all in caps and bold making it very aggressive
+
+Survey Page:
+Doesn't have instructions "Fields are required if not otherwise noted."
+Color choice per box
+misleading on the select city box
+Radio button placing
+
+
+When converting CodeCamp Kids from a static to a dynamic website (e.g. allowing user accounts, sign-ups, or storing student progress), you’ll start collecting and storing personal data — especially that of children. This introduces a major ethical responsibility to protect that data from misuse, breaches, or unauthorized access.
+970×250
+
+

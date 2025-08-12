@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <title>Gallery | CodeCamp Kids</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+<header role="banner">
+    <img src="images/codecamp_kids_logo (2).png" alt="CodeCamp Kids Logo" class="logo" />
+    <h1>CodeCamp Kids</h1>
+    <nav role="navigation" aria-label="Primary navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" >About Us</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main role="main">
+    <h2>Our Gallery</h2>
+    <div class="gallery">
+	 <figure>
+      <img src="images/gallery1.jpg" alt="Workshop 1" class="thumbnail" onclick="openLightbox(this)">
+	  <figcaption>Mini Coders collaborating in workshop.</figcaption>
+	 </figure>
+	 <figure>
+	  <img src="images/gallery2.jpg" alt="Workshop 2" class="thumbnail" onclick="openLightbox(this)">
+	  <figcaption>Mini Coders trying to create own calculator.</figcaption>
+	 </figure>
+	 <figure>
+	  <img src="images/gallery3.jpg" alt="Workshop 3" class="thumbnail" onclick="openLightbox(this)">
+	  <figcaption>Mini Coders showing their projects.</figcaption>
+	 </figure>
+	 <figure>
+	  <img src="images/gallery4.jpg" alt="Workshop 4" class="thumbnail" onclick="openLightbox(this)">
+	  <figcaption>Mini Coders playing.</figcaption>
+	 </figure>
+	 <figure>
+	  <img src="images/gallery5.jpg" alt="Workshop 5" class="thumbnail" onclick="openLightbox(this)">
+	  <figcaption>Junior devs doing animations.</figcaption>
+	 </figure>
+	 <figure>
+	  <img src="images/gallery6.jpg" alt="Workshop 6" class="thumbnail" onclick="openLightbox(this)">
+	  <figcaption>Junior Devs attending workshop 6.</figcaption>
+	 </figure>
+     <figure>
+	  <img src="images/gallery7.jpg" alt="Workshop 7" class="thumbnail" onclick="openLightbox(this)">
+	  <figcaption>Teen Coders focused on their project.</figcaption>
+	 </figure>
+	 <figure>
+	  <img src="images/gallery8.jpg" alt="Workshop 8" class="thumbnail" onclick="openLightbox(this)">
+	  <figcaption>Teen Coders workshop.</figcaption>
+	 </figure>
+    </div>
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+      <img id="lightbox-img" src="" alt="Expanded image">
+    </div>
+  </main>
+</body>
+</html>
